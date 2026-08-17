@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191918;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-shadow {
+    width: 100%;
+    flex: 1;
+    height: 5px;
+    background-color: #0e0e0e;
+    opacity: 0.97;
+}
+
+.navbar {
+    font-family: 'Inter', sans-serif;
+    background-color: #191918;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 55px 30px 55px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navlinks ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    font-weight: 800;
+    font-size: 22px;
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Segoe UI';
+    background-color: #191918;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 200px 20px;
+    width: 100%;
+}
+
+.hero-container {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 850px;
+    width: 100%;
+}
+
+.greeting {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.name {
+    padding-left: 50px;
+    font-size: 30px;
+    padding-bottom: 170px;
+}
+
+.verco {
+    padding-left: 50px;
+}
+
+.roles {
+    font-size: 30px;
+    list-style: none;
+}
+
+.roles li {
+    padding-bottom: 5px;
+}
+
+.Fst {
+    padding-left: 70px;
+}
+
+.Snd {
+    padding-left: 20px;
+}
+
+.Trd {
+    padding-left: 30px;
+}
+
+.hero-image {
+    width: 100%;       /* Fills available space on small phone screens */
+    max-width: 500px;  /* Keeps the original fixed size on desktop */
+}
+
+.hero-image img {
+    width: 100%;       /* Scales dynamically with its wrapper */
+    height: auto;      /* Keeps the aspect ratio locked so it never distorts */
+    display: block;
+}
+
+.toolist {
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.tool-container {
+    flex-wrap: wrap;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.tool img {
+    width: 120px;
+}
+
+.tool {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex: 1 1 200px;  /* Allows card to shrink down to 200px, then wrap */
+    max-width: 250px; /* Prevents cards from getting too wide on huge monitors */
+    width: 100%;
+}
+
+.short {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.short {
+    white-space: nowrap;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 23px;
+}
+
+.footer {
+    color: white;
+    background-color: #191918;
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding: 30px;
+}
