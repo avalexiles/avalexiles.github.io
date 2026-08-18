@@ -127,6 +127,7 @@ main {
 }
 
 .toolist {
+    background-color: red;
     font-family: 'Segoe UI';
     display: flex;
     justify-content: center;
@@ -135,6 +136,7 @@ main {
 }
 
 .tool-container {
+    background-color: blue;
     flex-wrap: wrap;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -149,6 +151,7 @@ main {
 }
 
 .tool {
+    background-color: green;
     padding: 20px;
     display: flex;
     flex-direction: column;
